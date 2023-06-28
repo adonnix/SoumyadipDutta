@@ -1867,7 +1867,6 @@ h1, h2, h3, h4, h5,
   position: inherit;
   background-size: cover;
   background-repeat: no-repeat; }
-
   .hero-wrap .overlay {
     position: absolute;
     top: 0;
@@ -1875,11 +1874,10 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    opacity: 100;
-    width: 100%;
-    background-size: 2000px;
-    background: #20c997;
-  } 
+    opacity: .5;
+    width: 50%;
+    background: #20c997; 
+  }
   .hero-wrap .text {
     width: 100%; }
 
