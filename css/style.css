@@ -1865,10 +1865,10 @@ h1, h2, h3, h4, h5,
   width: 100%;
   height: 100%;
   position: inherit;
-  background-image: url(/images/hero-bg2.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
-  /* .hero-wrap .overlay {
+
+  .hero-wrap .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -1877,10 +1877,9 @@ h1, h2, h3, h4, h5,
     content: '';
     opacity: 100;
     width: 100%;
-    background-image: url(/images/hero-bg1.jpg);
     background-size: 2000px;
     background: #20c997;
-  }  */
+  } 
   .hero-wrap .text {
     width: 100%; }
 
@@ -1888,7 +1887,7 @@ h1, h2, h3, h4, h5,
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 800;
-  color: #20c997;
+  color: #000000;
   letter-spacing: 4px; }
 
 .slider-text h1 {
@@ -1903,7 +1902,7 @@ h1, h2, h3, h4, h5,
   font-weight: 800;
   color: white; }
   .slider-text h2 span {
-    color: #20c997;
+    color: #000000;
     text-decoration: underline; }
 
 .slider-text p {
